@@ -1,0 +1,21 @@
+{
+  "title": "QDA Theme",
+  "name": "qda-theme",
+  "description": "A markdown-derived theme for Qualitative Data Analysis .",
+  "version": "1.0",
+  "author": "Brian Cleland (https://github.com/briancleland)",
+  "homepage": "https://github.com/Brackets-Themes/Coolwater",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Brackets-Themes/Coolwater.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "brackets": ">=0.42.0"
+  },
+  "theme": {
+    "file": "qda-theme.css",
+    "dark": false,
+    "addModeClass": true
+  }
+}

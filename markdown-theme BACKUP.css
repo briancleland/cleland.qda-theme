@@ -1,0 +1,206 @@
+pre {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  width: 55em;
+  text-align: justify;
+  line-height: 1.5;
+  color: #444;
+}
+
+pre .cm-m-testmode4 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.2em;
+  width: 55em;
+  text-align: justify;
+  line-height: 1.5;
+  color: #444;
+}
+/* SWATCHES ---------------------------------------------------------------------- */
+
+span.cm-builtin {
+  color: #00294a;
+}
+span.cm-unordered-list {
+  color: #008d5c;
+  font-weight: bold;
+  /*  color: #008d5c;*/
+}
+span.cm-highlight {
+  color: lightgreen;
+}
+span.cm-hr {
+  color: #e88501;
+}
+.highlight {
+  color: lightgreen;
+}
+span.cm-strong {
+  font-weight: bold;
+  color: #008d5c;
+}
+span.cm-em {
+  font-style: italic;
+  font-weight: bold;
+  color: #008d5c
+}
+span.cm-quote {
+  border-left: 10px solid #eee;
+  padding: 0 20px;
+  margin-left: 20px;
+  display: block;
+}
+span.cm-strikethrough {
+  color: #bbb;
+  text-decoration: line-through;
+}
+span.cm-citation {
+  color: #ff3da5;
+}
+span.cm-hashtag {
+  color: #666;
+  font-weight: normal;
+  padding: 2px 5px 3px;
+  border-radius: 5px;
+  background: #eee;
+/*  background: #e88501;*/
+  font-size:90%;
+}
+span.cm-header-1 {
+  color: #446fbd;
+  font-size: 200%;
+}
+span.cm-header-2 {
+  color: #446fbd;
+  font-size: 150%;
+}
+span.cm-header-3 {
+  color: #446fbd;
+  font-size: 120%;
+}
+span.cm-figure-title, span.cm-table-title {
+  color: #008d5c;
+  font-weight: bold;
+}
+span.cm-meta {
+  color: #00294a;
+}
+span.cm-operator {
+  color: #00294a;
+}
+span.cm-qualifier {
+  color: #00294a;
+}
+span.cm-atom {
+  color: #008fff;
+}
+span.cm-link {
+  color: #008fff;
+}
+span.cm-number {
+  color: #008fff;
+}
+span.cm-string {
+  color: #e88501;
+}
+span.cm-string-2 {
+  color: #008fff;
+}
+span.cm-variable-2 {
+  color: #008d5c;
+}
+span.cm-variable-3 {
+  color: #008d5c;
+}
+span.cm-bracket {
+  color: #002cb8;
+}
+span.cm-tag {
+  color: #002cb8;
+}
+span.cm-attribute {
+  color: #008d5c;
+}
+span.cm-property {
+  color: #008d5c;
+}
+/* property after string */
+
+/*
+span.cm-comment {
+  color: #666;
+  background: #F7F2E0;
+}
+*/
+span.cm-error {
+  color: #ff3da5;
+}
+span.cm-variable {
+  color: #0056ba;
+}
+/* MISC ---------------------------------------------------------------------- */
+
+.CodeMirror {
+  line-height: 1.4;
+}
+.CodeMirror-scroll {
+  background: #fff;
+  color: #4d6071;
+}
+.CodeMirror-cursor {
+  border-left: 1px solid #000 !important;
+}
+.CodeMirror-overwrite .CodeMirror-cursor {
+  border-bottom: 1px solid #000 !important;
+  border-left: none !important;
+}
+.CodeMirror-gutters {
+  background: #fff;
+  border-right: 1px solid #e6eff4;
+}
+.CodeMirror-linenumber {
+  color: #a5bdc7;
+}
+.CodeMirror-selected {}
+/* Active Line */
+
+.CodeMirror-activeline-background {
+  background: #e7edf2 !important;
+}
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+  color: #000;
+  background-color: transparent !important;
+}
+/* Matching Brackets and Tags */
+
+.CodeMirror-matchingbracket {
+  background: #b2e7ff !important;
+  color: #000 !important;
+}
+.CodeMirror-matchingtag {
+  background: #cbeeff !important;
+}
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
+  color: #ff3da5 !important;
+}
+/* Search Match */
+
+/*
+.CodeMirror-searching {
+    background-color: #ffcd2d;
+    color: #000 !important;
+}
+
+.CodeMirror-searching.searching-current-match {
+    background-color: #ff8500;
+}
+*/
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+  background-color: #fff;
+}
+#image-holder {
+  color: #4d6071;
+}

@@ -11,6 +11,10 @@ pre .cm-m-qda {
 /* QDA STUFF -------------------------------------- */
 
 
+span.cm-string {
+  color: #008d5c;
+}
+
 span.cm-unordered-list {
   color: #008d5c;
   font-weight: bold;

@@ -11,25 +11,28 @@ pre .cm-m-qda {
 /* QDA STUFF -------------------------------------- */
 
 
+span.cm-markup {
+  color: #aaa;
+}
+
 span.cm-string {
   color: #008d5c;
 }
 
 span.cm-unordered-list {
-  color: #008d5c;
-  font-weight: bold;
-  /*  color: #008d5c;*/
+  color: #888;
+/*  font-weight: bold;*/
 }
 span.cm-hr {
   color: #e88501;
 }
 span.cm-strong {
   font-weight: bold;
-  color: #008d5c;
+/*  color: #008d5c;*/
 }
 span.cm-em {
   font-style: italic;
-  font-weight: bold;
+/*  font-weight: bold;*/
   color: #008d5c
 }
 span.cm-quote {
@@ -39,7 +42,7 @@ span.cm-quote {
   display: block;
 }
 span.cm-strikethrough {
-  color: #bbb;
+  color: #aaa;
   text-decoration: line-through;
 }
 span.cm-citation {
@@ -51,7 +54,6 @@ span.cm-hashtag {
   padding: 2px 5px 3px;
   border-radius: 5px;
   background: #eee;
-/*  background: #e88501;*/
   font-size:100%;
 }
 span.cm-header-1 {
@@ -71,3 +73,12 @@ span.cm-figure-title, span.cm-table-title {
   font-weight: bold;
 }
 
+/*
+*** COLOURS ***
+GREEN: #008d5c
+DARKGREEN: #6d8600
+BLUE: #446fbd
+PINK: #ff3da5
+ORANGE: #e88501
+PURPLE: ##8757ad
+*/
